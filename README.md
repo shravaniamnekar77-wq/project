@@ -29,24 +29,7 @@ The website has a clean and simple design that is suitable for a student or begi
 - Contact section
 - Mobile-friendly layout
 
-## 📂 Project Structure
-
-```text
-portfolio/
-│
-└── index.html
-```
-
-## 💻 How to Run
-
-1. Download or clone this repository.
-2. Open the project folder.
-3. Open `index.html` in any web browser.
-4. Your portfolio website will be displayed.
-
-## 👤 Author
-
-**Your Name**
+**shravani**
 
 - GitHub: [Your GitHub Profile](https://github.com/)
 - Email: yourname@gmail.com
