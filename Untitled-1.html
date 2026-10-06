@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 15px 8%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        header h2 {
+            color: #00adb5;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: white;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+        }
+
+        .hero span {
+            color: #00adb5;
+        }
+
+        .hero p {
+            margin: 15px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #00adb5;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 50px 8%;
+            text-align: center;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .skill {
+            background: white;
+            padding: 15px 25px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px #ccc;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>MyPortfolio</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Hello, I'm <span>Your Name</span></h1>
+        <p>Web Developer | Student | Programmer</p>
+        <a href="#contact" class="btn">Contact Me</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a student and aspiring web developer.
+            I love creating websites and learning new technologies.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">PHP</div>
+            <div class="skill">Java</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: yourname@gmail.com</p>
+        <p>Phone: +91 9876543210</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Your Name | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
